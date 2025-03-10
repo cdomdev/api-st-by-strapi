@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inventaries",
+  "info": {
+    "singularName": "inventary",
+    "pluralName": "inventaries",
+    "displayName": "Inventary"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "admin": {
+      "type": "string"
+    }
+  }
+}

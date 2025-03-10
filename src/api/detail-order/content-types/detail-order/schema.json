@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "detail_orders",
+  "info": {
+    "singularName": "detail-order",
+    "pluralName": "detail-orders",
+    "displayName": "detail_orders"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "unit_price": {
+      "type": "decimal"
+    },
+    "qty": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "date"
+    },
+    "order_id": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::order.order",
+      "inversedBy": "detail_orders"
+    }
+  }
+}

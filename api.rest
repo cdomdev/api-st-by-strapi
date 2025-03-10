@@ -1,0 +1,12 @@
+
+
+GET http://localhost:1337/api/products?fields[0]=title&fields[1]=price&fields[2]=discount&fields[3]=qty_inventary&fields[4]=creationDate&populate[image][fields][0]=url&populate[categories][fields][0]=name
+Authorization: Bearer  5e56c26f4dc9f831c389f9b514edc8c5a1235b4284dfa04e19d9202a67203c117a3d688d3b05dd6dcf707f94fbaafa012a072c9c6ff49385b7b5ec1ebfee710db647fcbc56125aebccf6b62dcfb9e4492746faa6acdb9290e1beee84f77a8dae2105581bd971a02b391fb135c53f62d111802912a10756ad1a91d7b32029e516
+
+
+###
+
+http://localhost:1337/api/products?populate=image&populate=categories
+Authorization: Bearer 
+5e56c26f4dc9f831c389f9b514edc8c5a1235b4284dfa04e19d9202a67203c117a3d688d3b
+05dd6dcf707f94fbaafa012a072c9c6ff49385b7b5ec1ebfee710db647fcbc56125aebccf6b62dcfb9e4492746faa6acdb9290e1beee84f77a8dae2105581bd971a02b391fb135c53f62d111802912a10756ad1a91d7b32029e516
